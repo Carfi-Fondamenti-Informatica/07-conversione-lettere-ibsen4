@@ -4,12 +4,14 @@ using namespace std;
 
 int main() {
     char valore;
+    char esito;
     cin>>valore;
     if(letteraono(valore)==true) {
-        cout << conversionelettere(valore);
+        esito=conversionelettere(valore);
+        cout<<esito;
     }
     else if (letteraono(valore)==false){
-        cout<<"errore";
+        cout<<"errore"<<endl;
     }
     return 0;
 }
