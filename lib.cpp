@@ -1,3 +1,5 @@
+#include "PrimaLibreria.h"
+
 bool letteraono(char valore){
     if (valore>='A'&& valore<='Z' || valore>='a' && valore<='z'){
         return true;
