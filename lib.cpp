@@ -9,7 +9,7 @@ bool letteraono(int valore){
 }
 
 char conversionelettere(char valore){
-     if(letteraono(valore)==true){
+     
         char esito;
         if( valore>='A' && valore<='Z'){
          esito=valore+32;
@@ -18,10 +18,4 @@ char conversionelettere(char valore){
          esito=valore-32;
         }
         return esito;
-        }
-     else if(letteraono(valore)==false){
-         bool esito=false;
-         return esito;
-     }
 }
-
