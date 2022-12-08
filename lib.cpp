@@ -1,7 +1,7 @@
 #include "PrimaLibreria.h"
 
 bool letteraono(int valore){
-    if (valore>='A'&& valore<='Z' || valore>='a' && valore<='z'){
+    if (valore>=65 && valore<=90 || valore>=97 && valore<=122){
         return true;
     }
     else
