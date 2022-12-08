@@ -1,4 +1,4 @@
-#include "PrimaLibreria.h"
+#include "lib.h"
 
 bool letteraono(int valore){
     if (valore>=65 && valore<=90 || valore>=97 && valore<=122){
